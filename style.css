@@ -1,10 +1,16 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/*header section*/
 .header{
-    background: #e554731a;
+    background: rgba(229, 84, 115, 0.10);
     display: flex;
-
+    justify-content: space-between;
+    
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    
+height: 850px;
 
 }
 .btn-primary{
@@ -26,7 +32,7 @@ body{
    justify-content: space-between;
 }
 .banner-container{
-    max-width: 500px;
+    max-width: auto;
 }
 .banner-title{
     color: #272727;
@@ -43,9 +49,28 @@ body{
 
 }
 .banner .profile-pic{
-    margin: 50px 240px 0 100px;
-    
-width: 635px;
-height: 800px;
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-bottom: 0;
+    margin-right: 240px;
+   
 
+}
+/*main section*/
+/*featured flower*/
+.section-title{
+    color:#272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-des{
+    color: rgba(39, 39, 39, 0.6);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+
+margin-top: 24;
+ 
 }
