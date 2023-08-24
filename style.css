@@ -1,24 +1,36 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .header{
-display: flex;
-
-}
-.header-container{
-
-}
-.header-info{
-
-}
-.header-title{
-
-}
-.header-des{
+    background: #e554731a;
 
 }
 .btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+   
+    font-weight: 700;
 
 }
-.header-image-section{
-    display: flex;
-    justify-content: space-between;
-    background-position: bottom right;
+.banner{
+
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding: 200px 100px 30px 200px;
+}
+.banner-des{
+    width: 634px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
 }
