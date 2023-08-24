@@ -3,6 +3,8 @@ body{
 }
 .header{
     background: #e554731a;
+    display: flex;
+
 
 }
 .btn-primary{
@@ -18,19 +20,32 @@ body{
 
 }
 .banner{
-
+   padding: 50px 150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.banner-container{
+    max-width: 500px;
 }
 .banner-title{
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    padding: 200px 100px 30px 200px;
+
 }
 .banner-des{
     width: 634px;
+    color:#272727;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 32px;
-    margin-bottom: 32px;
+   
+
+}
+.banner .profile-pic{
+    margin: 50px 240px 0 100px;
     
+width: 635px;
+height: 800px;
+
 }
