@@ -1,0 +1,24 @@
+.header{
+display: flex;
+
+}
+.header-container{
+
+}
+.header-info{
+
+}
+.header-title{
+
+}
+.header-des{
+
+}
+.btn-primary{
+
+}
+.header-image-section{
+    display: flex;
+    justify-content: space-between;
+    background-position: bottom right;
+}
