@@ -75,3 +75,11 @@ padding: 24px;
 
 }
 
+.flower{
+display: flex;
+align-items: center;
+}
+.flower-info{
+    display: flex;
+    align-items: center;
+}
