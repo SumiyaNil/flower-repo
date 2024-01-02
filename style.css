@@ -78,8 +78,65 @@ padding: 24px;
 .flower{
 display: flex;
 align-items: center;
+width: 1920px;
+
+background: #FFF;
 }
+
 .flower-info{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+    
+}
+#flower-info1{
+    display: flex;
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+margin-right: 24px;
+margin-left: 240px;
+
+}
+#flower-info2{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+margin-left: 0px;
+margin-right:24px;
+}
+#flower-info3{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+margin-left: 0px;
+margin-right:240px;
+}
+.f1{
+    padding-top:110px;
+    padding-left:78px;
+    padding-right: 76px;
+    padding-bottom: 0px;
+    
+}
+.f2{
+    padding-top: 117px;
+    padding-right: 47px;
+    padding-left: 47px;
+    padding-bottom: 51px;
+
+}
+.f3{
+    padding-top: 67px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 0px;
 }
